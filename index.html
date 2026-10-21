@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>MySuite · MySuite</title>
+<style>
+  :root { --bg: #F7F4EB; --fg: #333333; --muted: #6b675e; --line: #e2ddcf; --card: #fffdf7; --accent: #333333; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #333333; --fg: #F7F4EB; --muted: #bdb8ab; --line: #4a4a4a; --card: #3b3b3b; --accent: #F7F4EB; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { margin-bottom: 32px; }
+  .app { font-size: 14px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+  .lang { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px 20px 12px; margin: 0 0 24px; }
+  .lang > h2:first-child { margin-top: 16px; }
+  nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 15px; }
+  .updated { color: var(--muted); font-size: 15px; }
+  footer { color: var(--muted); font-size: 14px; margin-top: 32px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <p class="app">MySuite</p>
+  <h1>MySuite</h1>
+  <nav><a href="#el">Ελληνικά</a><a href="#en">English</a><a href="index.html">MySuite</a><a href="privacy.html">Απόρρητο · Privacy</a><a href="terms.html">Όροι · Terms</a></nav>
+  <p class="updated">21/10/2026</p>
+</header>
+<section class="lang" id="el">
+<p>Σπίτι, αυτοκίνητο, εξοπλισμός, εγγυήσεις, έγγραφα και έξοδα σε μία εφαρμογή για iPhone, iPad και Mac. Χωρίς λογαριασμό: όλα στο δικό σου iCloud.</p>
+</section>
+<section class="lang" id="en">
+<p>Home, car, equipment, warranties, documents and expenses in one app for iPhone, iPad and Mac. No account: everything in your own iCloud.</p>
+</section>
+<footer>MySuite · Alexis Arapatsakos · <a href="mailto:arapatsakos@gmail.com">arapatsakos@gmail.com</a></footer>
+</main>
+</body>
+</html>
